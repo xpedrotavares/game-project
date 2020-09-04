@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+canvas{
+    
+    
+    /* width: 500px;
+    height: 600px; */
+    background-color: antiquewhite;
+    
+}
+
+/* #div-start {
+
+} */
+/* button {
+     display: flex;
+        margin-top: 28px;
+    margin-bottom: 56px;
+    font-size: 20px;
+    background-color: white;
+    border: none; 
+    
+} */
+
+#all-viewport {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./Browser-illustation_2-02.png);
+    background-size: cover;
+    padding-top: 102.9px;
+    padding-right: 30px;
+}
+#canvas{
+    
+    
+}
+    body{
+        width: 100vw;
+        height: 100vh;
+    
+} 
