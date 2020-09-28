@@ -149,7 +149,7 @@ window.onload = function () {
   }
 
   function Start() {
-    canvas.width = 905;
+    canvas.width = 1090;
     canvas.height = 404;
 
     ctx.font = "20px sans-serif";

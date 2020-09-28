@@ -288,9 +288,9 @@ top: 20px;
 
     .frame-canvas{
         position: absolute;
-        width: 905px;
+        width: 1080px;
         height: 404px;
         border: 1px solid black;
-        top: 156px;
-        left: 320px;
+        top: 186px;
+        left: 330px;
     }
