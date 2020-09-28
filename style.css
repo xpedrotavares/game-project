@@ -183,6 +183,7 @@ canvas{
     align-self: center;
     padding-left: 20px;
     word-spacing: 5px;
+    font-size: 15px!important;
 }
 
 .rectangle-1 {
@@ -220,25 +221,32 @@ canvas{
     left: 30px;
 }
 
-b {
+.welcome-text-bold {
     font-size: 19px;
+}
+
+.p-instructions {
+    position: absolute;
+    top: 5px!important;
+    word-spacing: inherit!important;
+
 }
 
 .game-instructions{
     position: absolute;
-    width: 200px;
+    width: 220px;
     height: 250px;
     border-radius: 10px ;
     border: 1px solid black;
     border-right: 5px solid black;
     border-bottom: 5px solid black;
     top: 140px;
-    left: 45px;
+    left: 35px;
     background-color: #FFBEB7;
 }
 .game-instructions div {
 border: 1px solid black;
-width: 200px;
+width: 220px;
 border-left: none;
 border-right: none;
 border-bottom: none;
@@ -258,7 +266,7 @@ top: 20px;
 .game-info{
     position: absolute;
     width: 200px;
-    height: 150px;
+    height: 170px;
     border-radius: 10px ;
     border: 1px solid black;
     border-right: 5px solid black;
@@ -285,7 +293,12 @@ top: 20px;
     font-size: 14px;
     word-spacing: 10px;
 }
+.p-info{
+    position: absolute;
+    top: 5px!important;
+    word-spacing: inherit!important;
 
+}
     .frame-canvas{
         position: absolute;
         width: 1080px;
