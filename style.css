@@ -153,6 +153,12 @@ canvas{
     left: 50px;
 }
 
+#circles p {
+    position: absolute;
+    top: -103px;
+    left: 80px;
+    word-spacing: 8px;
+}
 #rectangle-up{
     width: 80vw;
     height: 30px;
@@ -164,6 +170,12 @@ canvas{
     align-self: flex-start;
     top: -65px;
     left: -13px;
+}
+
+
+#rectangle-up p {
+    align-self: center;
+    padding-left: 20px;
 }
 
 .rectangle-1 {
