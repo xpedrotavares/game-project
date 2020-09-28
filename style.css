@@ -3,6 +3,7 @@ body{
     padding: 0;
     width: 100vw;
     height: 100vh;
+    font-family: 'Chakra Petch', sans-serif;
 }
 canvas{
     position: relative;
@@ -11,6 +12,11 @@ canvas{
     background-color: antiquewhite;
     border: 1px solid black;
     
+}
+.span-orbitron-font{
+   font-family: 'Orbitron', sans-serif;
+   font-size: 15px;
+   
 }
 #main{
     width: 100vw;
@@ -176,36 +182,46 @@ canvas{
 #rectangle-up p {
     align-self: center;
     padding-left: 20px;
+    word-spacing: 5px;
 }
 
 .rectangle-1 {
-    width: 280px;
-    height: 70px;
+    width: 290px;
+    height: 80px;
     background-color: white;
     border: 1px solid black;
     position: relative;
     top: -18px;
-    left: 500px;
+    left: 600px;
 }
 
 .rectangle-2 {
-    width: 280px;
-    height: 70px;
+    width: 290px;
+    height: 80px;
     background-color: white;
     border: 1px solid black;
     position: relative;
-    top: -78px;
-    left: 510px;
+    top: -85px;
+    left: 610px;
 }
 
 .rectangle-3 {
-    width: 280px;
-    height: 70px;
+    width: 290px;
+    height: 80px;
     background-color: white;
     border: 1px solid black;
     position: relative;
-    top: -138px;
-    left: 520px;
+    top: -152px;
+    left: 620px;
+}
+.rectangle-3 p {
+    position: absolute;
+    top: -8px;
+    left: 30px;
+}
+
+b {
+    font-size: 19px;
 }
 
 .game-instructions{
@@ -216,7 +232,7 @@ canvas{
     border: 1px solid black;
     border-right: 5px solid black;
     border-bottom: 5px solid black;
-    top: 100px;
+    top: 140px;
     left: 45px;
     background-color: #FFBEB7;
 }
@@ -227,7 +243,16 @@ border-left: none;
 border-right: none;
 border-bottom: none;
 position: absolute;
-top: 15px;
+top: 20px;
+}
+
+.game-instructions p {
+    position: absolute;
+    top: -35px;
+    left: 10px;
+    font-size: 14px;
+    font-weight: 100;
+    word-spacing: 10px;
 }
 
 .game-info{
@@ -238,7 +263,7 @@ top: 15px;
     border: 1px solid black;
     border-right: 5px solid black;
     border-bottom: 5px solid black;
-    top: 400px;
+    top: 440px;
     left: 45px;
     background-color: #FFBEB7
 }
@@ -250,8 +275,16 @@ top: 15px;
     border-right: none;
     border-bottom: none;
     position: absolute;
-    top: 15px;
+    top: 20px;
     }
+
+.game-info p{
+    position: absolute;
+    top: -35px;
+    left: 10px;
+    font-size: 14px;
+    word-spacing: 10px;
+}
 
     .frame-canvas{
         position: absolute;
