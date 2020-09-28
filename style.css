@@ -1,48 +1,251 @@
-*{
+body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
 }
 canvas{
-    
-    
-    /* width: 500px;
-    height: 600px; */
+    position: relative;
+    top: -80px;
+    left: 300px;
     background-color: antiquewhite;
+    border: 1px solid black;
     
 }
-
-/* #div-start {
-
-} */
-/* button {
-     display: flex;
-        margin-top: 28px;
-    margin-bottom: 56px;
-    font-size: 20px;
-    background-color: white;
-    border: none; 
-    
-} */
-
-#all-viewport {
+#main{
     width: 100vw;
     height: 100vh;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    background-image: url(./Browser-illustation_2-02.png);
+    align-items: center;
+    background-image: url("./images/background.jpg");
+    background-position: center;
     background-size: cover;
-    padding-top: 102.9px;
-    padding-right: 30px;
 }
-#canvas{
-    
-    
-}
-    body{
-        width: 100vw;
-        height: 100vh;
-    
+ .background-second-color{
+    position: absolute;
+    top: 190px;
+    left: 205px;
+    width: 77vw;
+    height: 66vh;
+    background-color: #FEEFEA;
+    background-size: 90%;
 } 
+.navegation-bottom {
+    position: absolute;
+    border: 1px solid black;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 78.5vw;
+    right: 222px;
+    bottom: 123px;
+}
+.navigation-control-bottom {
+    position: absolute;
+    width: 10vw;
+    height: 15px;
+    bottom: 101.5px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.navigation-control-right {
+    position: absolute;
+    width: 10vw;
+    height: 15px;
+    bottom: 450px;
+    right: 110px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: white;
+    transform: rotate(90deg);
+}
+
+.arrow-bottom-left{
+    position: absolute;
+    bottom: 101px;
+    left: 205px;
+    
+}
+
+.arrow-bottom-right {
+    position: absolute;
+    bottom: 101px;
+    right: 235px;
+}
+
+.arrow-right-top {
+    position: absolute;
+    top: 165px;
+    right: 205px;
+    transform: rotate(-90deg)
+}
+
+.arrow-right-bottom{
+    position: absolute;
+    bottom: 102px;
+    right: 202px;
+    transform: rotate(90deg)
+}
+
+.navegation-right {
+    position: absolute;
+    border: 1px solid black;
+    height: 74vh;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    right: 222px;
+    top: 156px;
+}
+
+.background-color{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8D9C7;
+    border: 1px solid black;
+    border-radius: 15px;
+
+}
+#circles {
+    display: flex;
+    width: 80vw;
+    position: fixed;
+}
+.circle-1{
+  
+    align-self: flex-start;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    top: -85px;
+    left: 10px;
+}
+
+.circle-2{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    top: -85px;
+    left: 30px;
+}
+
+.circle-3{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    top: -85px;
+    left: 50px;
+}
+
+#rectangle-up{
+    width: 80vw;
+    height: 30px;
+    display: flex;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    position: absolute;
+    align-self: flex-start;
+    top: -65px;
+    left: -13px;
+}
+
+.rectangle-1 {
+    width: 280px;
+    height: 70px;
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    top: -18px;
+    left: 500px;
+}
+
+.rectangle-2 {
+    width: 280px;
+    height: 70px;
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    top: -78px;
+    left: 510px;
+}
+
+.rectangle-3 {
+    width: 280px;
+    height: 70px;
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    top: -138px;
+    left: 520px;
+}
+
+.game-instructions{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px ;
+    border: 1px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    top: 100px;
+    left: 45px;
+    background-color: #FFBEB7;
+}
+.game-instructions div {
+border: 1px solid black;
+width: 200px;
+border-left: none;
+border-right: none;
+border-bottom: none;
+position: absolute;
+top: 15px;
+}
+
+.game-info{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px ;
+    border: 1px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    top: 400px;
+    left: 45px;
+    background-color: #FFBEB7
+}
+
+.game-info div {
+    border: 1px solid black;
+    width: 200px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    position: absolute;
+    top: 15px;
+    }
+
+    .frame-canvas{
+        position: absolute;
+        width: 905px;
+        height: 404px;
+        border: 1px solid black;
+        top: 156px;
+        left: 320px;
+    }
